@@ -1,0 +1,105 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.container{
+    margin-bottom: 70px;
+}
+header{
+  background-color: #ddfadd;
+}
+
+.highlight{
+    color: hotpink;
+}
+.header-btn{
+   text-decoration: none !important;
+   background-color: #21b573;
+   padding: 8px 20px;
+   border-radius: 10px;
+   color: #ffffff;
+   margin-top: 15px;
+   display: inline-block;
+
+}
+.header-btn:hover{
+    color: yellow;
+}
+.highlighting{
+    color:#21b573 ;
+    font-weight: 700;
+}
+.card-sizing{
+    width: 400px;
+    height: 200px;
+    padding: 10px 0;
+    background-color: #ecfaec;
+}
+.card-sizing img{
+  margin-left: 120px;
+}
+@media(max-width:700px){
+    .card-sizing img {
+        margin-left: 166px;
+    }
+    .col-md-6 p{
+        text-align: center;
+        
+    }
+}
+.card-sizing h4{
+ text-align: center;
+ display: block;
+}
+.card-sizing p{
+    text-align: center;
+}
+#Special-marking{
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 30px lightgray;
+}
+#course{
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+}
+.card{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 10px 10px 30px lightgray;
+}
+#testimonial{
+    margin-left: 70px;
+    display: block;
+    margin-bottom: 20px;
+}
+#testimonial p{
+  text-align: center;
+}
+ul li{
+    list-style: none;
+    color: #ffffff;
+}
+.footer p{
+    
+    color: #ffffff;
+}
+.footer{
+   background-color: #282531;
+   /* padding: 20px 0; */
+   width: 100%;
+}
+.ft-phara{
+   text-align: center;
+}
+.alingment-center{
+ text-align: center;
+ margin-top: 15px;
+ display: inline-block;
+    
+}
+.navbar-toggler-icon {
+    
+    background-color: grey;
+}
+
