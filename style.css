@@ -1,7 +1,7 @@
-body{
-    width: 100%;
-    overflow-x: hidden;
-}
+/* body{
+    width: 101%;
+    overflow-x: hidden; */
+
 .container{
     margin-bottom: 70px;
 }
@@ -45,6 +45,9 @@ header{
     .col-md-6 p{
         text-align: center;
         
+    }
+    #book{
+        margin-left: 10px;
     }
 }
 .card-sizing h4{
